@@ -1,0 +1,6 @@
+if [ $1 ]
+then
+g++ -o test $1 -L/opt/AMDAPP/lib/x86/ -I/opt/AMDAPP/include -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_objdetect -lopencv_ocl -lOpenCL
+else
+echo Please specify input file
+fi
