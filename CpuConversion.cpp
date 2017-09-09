@@ -2,7 +2,7 @@
 #include "opencv2/core/core.hpp"
 #include "opencv/cv.h"
 #include <iostream>
-#include<cstdlib>
+#include <cstdlib>
 
 using namespace cv;
 using namespace std;
